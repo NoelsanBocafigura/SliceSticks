@@ -1,0 +1,35 @@
+import pygame
+from enum import Enum
+
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+FPS = 60
+GRAVITY = 0.5
+GROUND_Y = 500
+JUMP_FORCE = -12
+BOSS_KILL_THRESHOLD = 10
+
+SILVER_WHITE = (230, 230, 230)
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+RED = (220, 20, 20)
+DARK_RED = (139, 0, 0)
+GREEN = (50, 205, 50)
+BLUE = (30, 144, 255)
+YELLOW = (255, 215, 0)
+GRAY = (128, 128, 128)
+ORANGE = (255, 140, 0)
+DARK_GRAY = (40, 40, 40)
+BLOOD_COLOR = (180, 0, 0)
+DARK_BLOOD = (60, 0, 0, 200)
+DEEP_RED = (40, 0, 0)
+CRIMSON = (150, 0, 0)
+
+class GameState(Enum):
+    MAIN_MENU = 0
+    PLAYING = 1
+    PAUSED = 2
+    STAT_MENU = 3
+    SKILL_MENU = 4
+    WEAPON_MENU = 5
+    GAME_OVER = 6
