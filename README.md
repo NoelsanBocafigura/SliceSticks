@@ -1,8 +1,4 @@
-# SliceSticks
-
----
-
-# Stick Fighter
+# SliceSticks: Stick Fighter
 
 A fast-paced, physics-driven 2D action game built with **Pygame**. Take control of a skilled stick figure warrior, battle waves of enemies, unlock powerful weapons, and take down massive bosses. This project utilizes an event-driven architecture with a custom physics and animation engine to deliver smooth, dynamic stick-figure combat.
 
